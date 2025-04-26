@@ -67,8 +67,8 @@ function hideOverlayGradient(){var gradient=document.getElementById('gradient');
 var showedStartGameError=false;function setPokiInited(){PokiSDK.gameLoadingStart();pokiInited=true;}
 function initPokiSdk() {
   if (!pokiDebug) {
-    !function () {
-      /*'use strict';
+    /*!function () {
+      'use strict';
 
       var _0xa077b9 = window.location.hostname;
       var _0x5efbe0 = ["bG9jYWxob3N0", "LnBva2kuY29t", "LnBva2ktZ2RuLmNvbQ=="].map(function (_0x5bf831) {
