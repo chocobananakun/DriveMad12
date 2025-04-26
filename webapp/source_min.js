@@ -68,7 +68,7 @@ var showedStartGameError=false;function setPokiInited(){PokiSDK.gameLoadingStart
 function initPokiSdk() {
   if (!pokiDebug) {
     !function () {
-      'use strict';
+      /*'use strict';
 
       var _0xa077b9 = window.location.hostname;
       var _0x5efbe0 = ["bG9jYWxob3N0", "LnBva2kuY29t", "LnBva2ktZ2RuLmNvbQ=="].map(function (_0x5bf831) {
@@ -83,7 +83,7 @@ function initPokiSdk() {
           window.top.location = window.location;
         }
       }
-    }();
+    }();*/
   }
 PokiSDK.init().then(()=>{setPokiInited();}).catch(()=>{setPokiInited();});}
 function hideOverlay(){var playContent=document.getElementById('play_content');playContent.style.display="none";hideOverlayGradient();}
